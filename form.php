@@ -10,7 +10,7 @@
     <h2>Buat Account baru</h2>
     <h3>sign up from</h3>
 
-     <form action="welcome.html" method="get">
+     <form action="welcome.php" method="post">
        <label for="fname">first name:</label><br>
        <input type="text" id="fname" name="fname" value=""><br>
        <label for="lname">last name:</label><br>
@@ -31,12 +31,12 @@
             </select><br></br>
 
              <label>Language Spoken</label><br></br>
-             <input type="checkbox" id="buatbox1" name="buatbox1" value="bahasa">
-             <label for="buatbox1">Bahasa Indonesia</label><br>
-             <input type="checkbox" id="Buatbox2" name="buatbox2" value="bahasa">
-             <label for="buatbox2">English</label><br>
-             <input type="checkbox" id="buatbox3" name="buatbox3" value="bahasa">
-             <label for="buatbox3">Other</label><br></br>
+             <input type="checkbox" id="buatbox1" name="buatbox" value="Indonesia">
+             <label for="buatbox">Bahasa Indonesia</label><br>
+             <input type="checkbox" id="Buatbox2" name="buatbox" value="English">
+             <label for="buatbox">English</label><br>
+             <input type="checkbox" id="buatbox3" name="buatbox" value="Other">
+             <label for="buatbox">Other</label><br></br>
 
              <p>Bio</p>
              <textarea name="massage" rows="10" cols="35"></textarea><br>
